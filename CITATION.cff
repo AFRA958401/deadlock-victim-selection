@@ -18,4 +18,5 @@ contact:
     given-names: "Mohsin Ghaffar"
     affiliation: "University of Management and Technology"
 date-released: "2026-11-24"
-# TODO: add repository-code URL and doi after publishing on GitHub/Zenodo.
+doi: "10.5281/zenodo.24499693"
+repository-code: "https://github.com/AFRA958401/deadlock-victim-selection"
