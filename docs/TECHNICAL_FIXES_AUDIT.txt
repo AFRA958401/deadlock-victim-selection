@@ -1,0 +1,24 @@
+Repository technical-fix audit
+Date: 2026-11-24
+
+Changes made in this corrected copy (original uploaded ZIP was not modified):
+1. experiment_runner.py now writes main and supplementary outputs into the main/ and supplementary/ folders expected by the analysis scripts. The test mode writes into test/.
+2. run_age_baseline.py now writes results_age_baseline.csv into age_baseline/ beside the script, rather than the current working directory.
+3. age_compare.py now resolves input and output paths relative to its own script location.
+4. analyze_results.py no longer depends on a hard-coded external file under /mnt/data/files. Its report is portable and uses the supplied repository data only.
+5. Added generate_paper_assets.py to regenerate Table 5 and Figures 4-5 from the included main run-level CSV.
+6. Added matplotlib to requirements.txt.
+7. Updated README commands and output-path explanation.
+
+Validation performed:
+- Python syntax compilation passed for all .py files.
+- analyze_results.py ran successfully using the included main and supplementary CSVs.
+- age_compare.py ran successfully using the included main and age-baseline CSVs.
+- generate_paper_assets.py generated table5_process_count.csv and both figure PNGs.
+- experiment_runner.py --mode test --workers 1 --outdir /tmp/deadlock_repo_test passed determinism and sanity checks and wrote test/results_test.csv plus metadata.
+- No hard-coded /mnt/data or /home paths remain in Python scripts.
+
+Not performed:
+- The full 4,050 + 1,890 experiment was not rerun; existing included run-level datasets were used for regeneration and validation.
+- The full 810-run age-baseline experiment was not rerun; its included CSV was used by age_compare.py.
+- Public GitHub/Zenodo publication, journal formatting, and author confirmation remain separate publication tasks.

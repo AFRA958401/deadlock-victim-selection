@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Adaptive Four-Factor Victim Selection for Deadlock Recovery: code and data"
+type: software
+license: MIT
+authors:
+  - family-names: "Fatima"
+    given-names: "Afra"
+    affiliation: "University of Management and Technology"
+  - family-names: "Rehan"
+    given-names: "Rafia"
+    affiliation: "University of Management and Technology"
+  - family-names: "Ali"
+    given-names: "Tuba Akbar"
+    affiliation: "University of Management and Technology"
+contact:
+  - family-names: "Ghouri"
+    given-names: "Mohsin Ghaffar"
+    affiliation: "University of Management and Technology"
+date-released: "2026-11-24"
+# TODO: add repository-code URL and doi after publishing on GitHub/Zenodo.

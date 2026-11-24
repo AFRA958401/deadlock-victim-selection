@@ -1,0 +1,18 @@
+Deadlock recovery experiment rerun report
+========================================
+Main runs: 4050 | sanity problems: 0 | SHA256 CSV: 4a933b1f819bff809c0644ae257b39b0b209da1ac46e050619cd674579324d47
+Supplementary runs: 1890 | sanity problems: 0 | SHA256 CSV: 416a25ccbba6c6327cdb4a56e57649e3acd1bbab85e1faf9258620b9325f3135
+
+Main recovery cost means:
+  Adaptive: 145.083951
+  Fixed Weight: 145.734568
+  Lowest Priority: 148.381481
+  Minimum Cost: 155.232099
+  Minimum History: 146.441975
+
+Adaptive mean recovery cost in this dataset: 145.083951
+
+Table 3: new paired statistics from stated eight outcomes, 27 configuration-level differences, Wilcoxon + Holm over 32 tests; two-stage bootstrap 1,500 replicates (seed 20261123).
+Important: exact bootstrap implementation/seed was not present in the supplied materials; these CIs are reproducible new estimates, not claimed to reproduce missing original analysis.py.
+
+Table 4: means from supplementary 1,890-run dataset; Adaptive default is the matched reference over seeds 0-9.

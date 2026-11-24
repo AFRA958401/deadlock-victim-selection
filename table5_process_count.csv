@@ -1,0 +1,16 @@
+policy,n_processes,recovery_cost,terminated
+Adaptive,20,7.014815,0.000000
+Adaptive,50,121.096296,1.018519
+Adaptive,100,307.140741,0.988889
+Fixed Weight,20,7.240741,0.003704
+Fixed Weight,50,121.481481,0.944444
+Fixed Weight,100,308.481481,1.137037
+Lowest Priority,20,7.729630,0.081481
+Lowest Priority,50,123.837037,2.459259
+Lowest Priority,100,313.577778,7.103704
+Minimum Cost,20,8.459259,0.022222
+Minimum Cost,50,130.462963,1.411111
+Minimum Cost,100,326.774074,2.214815
+Minimum History,20,7.722222,0.000000
+Minimum History,50,124.955556,1.166667
+Minimum History,100,306.648148,0.970370

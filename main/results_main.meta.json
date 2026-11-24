@@ -1,0 +1,100 @@
+{
+  "mode": "main",
+  "rows": 4050,
+  "csv": "results_main.csv",
+  "csv_sha256": "4a933b1f819bff809c0644ae257b39b0b209da1ac46e050619cd674579324d47",
+  "columns": [
+    "experiment",
+    "policy",
+    "n_processes",
+    "n_resources",
+    "contention",
+    "seed",
+    "completed",
+    "terminated",
+    "unfinished",
+    "throughput",
+    "recovery_cost",
+    "work_lost",
+    "restarts",
+    "recovery_time",
+    "repeat_proxy",
+    "max_victimisations",
+    "jain",
+    "mean_turnaround",
+    "p95_turnaround",
+    "p99_turnaround",
+    "horizon"
+  ],
+  "design": {
+    "process_counts": [
+      20,
+      50,
+      100
+    ],
+    "resource_counts": [
+      3,
+      5,
+      8
+    ],
+    "contention_levels": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "test_config": null,
+    "policies": [
+      "Adaptive",
+      "Fixed Weight",
+      "Lowest Priority",
+      "Minimum Cost",
+      "Minimum History"
+    ]
+  },
+  "simulation_constants": {
+    "HORIZON": 500,
+    "ARRIVAL_WINDOW": 80,
+    "MAX_VICTIMS": 5,
+    "RESTART_PENALTY": 2,
+    "TERMINATION_PENALTY": 5
+  },
+  "simulation_py_sha256": "67286929af7cc8b35fc89c9d4dbef881f93fb4d13571e1d678d69fe791d4ed2d",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "sanity_check_problems": [],
+  "created_utc": "2026-11-23T15:00:44+00:00",
+  "command": "experiment_runner.py --mode main --workers 4 --outdir /mnt/data/deadlock_verification/main"
+}
