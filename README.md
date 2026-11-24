@@ -74,4 +74,4 @@ Supervisor: Mohsin Ghaffar Ghouri.
 ## License and citation
 
 Code: MIT License (see `LICENSE`). Run-level data and generated tables: CC BY 4.0.
-Citation metadata: `CITATION.cff`. Zenodo DOI: [TO BE FILLED AFTER RELEASE].
+Citation metadata: `CITATION.cff`. Zenodo DOI: https://doi.org/10.5281/zenodo.24499693.
